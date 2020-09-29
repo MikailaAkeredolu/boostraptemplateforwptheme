@@ -1,4 +1,100 @@
 body{
 font-family: 'Merriweather', serif;
-background-color: aqua;
+}
+
+.h2, h2 {
+    font-size: 1.5rem;
+}
+
+img{
+    max-width: 100%;
+}
+
+.feature-bg{
+  background: rgba(255, 255, 255, 0.05);
+    width: 100vw;
+    /* border-radius: 10px; */
+}
+
+.feature-text{
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: white;
+}
+
+.header_img{
+    min-height: 25vh;
+}
+
+.card{
+    margin-bottom: 20px;
+}
+
+.intro{
+    font-size: 1.5rem;
+
+}
+
+
+/* welcome section */
+.card-text{
+    font-size: 1.2rem;
+}
+
+/* pricelist section */
+.title{
+   color: goldenrod; 
+}
+
+.list-group-item{
+    background: none;
+    font-size: 1.1em;
+}
+
+/* footer section */
+a {
+    color: #212529;
+}
+
+/* targetting large screens */
+@media screen and (min-width: 768px){
+    .feature-bg{
+        width: 60vw;
+        border-radius: 10px;
+
+    }
+}       
+
+span{
+        position: absolute;
+        background: rgba(175, 169, 169, 0.6);
+        height: 80px;
+        width: 80px;
+        line-height: 80px;
+        border-radius: 100%;
+        top: -40px;
+        left: -40px;
+        margin-left: 50%;
+        font-size: 1.8rem;
+}
+
+.card{
+        margin-bottom: 0;
+}
+
+/* targetting small screens */
+@media screen and (max-width: 768px){
+    .title {
+    margin-top: 1em;
+    }
+
+    footer button {
+        margin-top: 1em;
+    }
+
+    footer .col-sm-4 {
+        border-bottom: 1px solid #ddd;
+        padding: 20px 10px;
+    }
+    
 }
